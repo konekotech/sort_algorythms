@@ -1,7 +1,7 @@
 #include "lib.h"
-#include "bubble_sort.h"
+#include "quick_sort.h"
 
 // Sort an array
 void sort(int *array, int size) {
-    bubble_sort(array, size);
+    quick_sort(array, size);
 }

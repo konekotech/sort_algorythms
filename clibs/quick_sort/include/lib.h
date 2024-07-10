@@ -1,6 +1,6 @@
-#ifndef BUBBLE_SORT_LIB_H
-#define BUBBLE_SORT_LIB_H
+#ifndef QUICK_SORT_LIB_H
+#define QUICK_SORT_LIB_H
 
 void sort(int *array, int size);
 
-#endif //BUBBLE_SORT_LIB_H
+#endif //QUICK_SORT_LIB_H

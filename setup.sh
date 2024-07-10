@@ -1,7 +1,16 @@
 #!/bin/sh
 
-# Build bubble_sort
-cd ./clibs/bubble_sort && rm -rf ./build/* && cmake -S . -B build && cmake --build build && ./build/test_program && cd ../../
+# Build C libraries
+for dir in ./clibs/*; do
+  if [ -d $dir ]; then
+    cd $dir
+    rm -rf ./build/*
+    cmake -S . -B build
+    cmake --build build
+    ./build/test_program
+    cd ../../
+  fi
+done
 
 # remove previous build
 rm -rf ./mypysort/__pycache__/ 

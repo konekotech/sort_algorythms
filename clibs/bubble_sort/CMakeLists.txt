@@ -11,12 +11,10 @@ include_directories(include)
 # bubble_sort library
 add_library(bubble_sort SHARED src/lib.c
         src/bubble_sort.c
-        src/bubble_sort.c
         include/bubble_sort.h)
 
 # Executable for testing
 add_executable(test_program test/test.c
-        src/bubble_sort.c
         src/bubble_sort.c
         include/bubble_sort.h)
 
