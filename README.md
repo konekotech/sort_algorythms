@@ -2,7 +2,7 @@
 
 ## 各アルゴリズムの README
 
-[バブルソート](./bubble_sort/README.md)
+[バブルソート](./clibs/bubble_sort/README.md)
 
 ## 各アルゴリズムの C 言語での実装について
 
@@ -31,13 +31,14 @@ Python によって、C 言語の共有ライブラリを用いて、`numpy`の�
 
 ### 起動方法
 
-`sort_algorithms` ディレクトリに移動して、以下のコマンドを実行してください。なお、C や Python のソースコードを変更しても、`--build`オプションをつける必要はありません。`docker compose up` のみで、新しいバイナリがビルドされます。
+`sort_algorithms` ディレクトリに移動して、以下のコマンドを実行してください。
 
 ```bash
 docker compose up
 ```
 
-しばらく待つと、`Jupyter notebook`が起動しますので、ブラウザで`http://127.0.0.1:8888`にアクセスしてください。
+なお、C や Python のソースコードを変更しても、`--build`オプションをつける必要はありません。`docker compose up` のみで、新しいバイナリがビルドされます。C や Python のソースコードを変更した場合は、`docker compose up`を再度実行するか、現在実行中のコンテナ内で`cd /app && ./setup.sh`を実行してください。
+`docker compose up`を起動してしばらく待つと、`Jupyter notebook`が起動しますので、ブラウザで`http://127.0.0.1:8888`にアクセスしてください。
 VS Code 上で`ipynb`ファイルを開いてコードを実行したい場合は、`Jupyter Notebook`が起動したあとで、以下の操作を行なってください。
 
 #### 右上の`Select Kernel`をクリック
