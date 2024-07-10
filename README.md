@@ -4,6 +4,22 @@
 
 [バブルソート](./clibs/bubble_sort/README.md)
 
+[選択ソート](./clibs/selection_sort/README.md)
+
+[挿入ソート](./clibs/insertion_sort/README.md)
+
+[クイックソート](./clibs/quick_sort/README.md)
+
+[マージソート](./clibs/merge_sort/README.md)
+
+[ヒープソート](./clibs/heap_sort/README.md)
+
+[カウントソート](./clibs/count_sort/README.md)
+
+[バケットソート](./clibs/bucket_sort/README.md)
+
+[基数ソート](./clibs/radix_sort/README.md)
+
 ## 各アルゴリズムの C 言語での実装について
 
 ### ファイル構成
