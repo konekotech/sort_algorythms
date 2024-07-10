@@ -38,7 +38,9 @@ docker compose up
 ```
 
 なお、C や Python のソースコードを変更しても、`--build`オプションをつける必要はありません。`docker compose up` のみで、新しいバイナリがビルドされます。C や Python のソースコードを変更した場合は、`docker compose up`を再度実行するか、現在実行中のコンテナ内で`cd /app && ./setup.sh`を実行してください。
+
 `docker compose up`を起動してしばらく待つと、`Jupyter notebook`が起動しますので、ブラウザで`http://127.0.0.1:8888`にアクセスしてください。
+
 VS Code 上で`ipynb`ファイルを開いてコードを実行したい場合は、`Jupyter Notebook`が起動したあとで、以下の操作を行なってください。
 
 #### 右上の`Select Kernel`をクリック
@@ -72,4 +74,5 @@ VS Code 上で`ipynb`ファイルを開いてコードを実行したい場合�
 ### Python ライブラリの使用方法
 
 Python によるラッパー関数は、`mypysort`というライブラリにまとめてあります。すでに`pip install`済みです。`mypysort`ライブラリにはさらに各ソートごとにモジュールが分かれています。例えば、バブルソートは`mypysort.bubble_sort`モジュールにまとめられています。
+
 各モジュールには、`sort`関数を必ず含みます。それ以外に便利な関数があれば、それも含まれています。
