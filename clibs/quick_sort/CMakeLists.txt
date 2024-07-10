@@ -8,6 +8,9 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ./libs)
 # Include the header files
 include_directories(include)
 
+# Optimization flags for release builds
+set(CMAKE_C_FLAGS_RELEASE "-O3")
+
 # quick_sort library
 add_library(quick_sort SHARED src/lib.c
         src/quick_sort.c

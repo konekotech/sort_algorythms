@@ -8,6 +8,9 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ./libs)
 # Include the header files
 include_directories(include)
 
+# Optimization flags for release builds
+set(CMAKE_C_FLAGS_RELEASE "-O3")
+
 # bubble_sort library
 add_library(bubble_sort SHARED src/lib.c
         src/bubble_sort.c
