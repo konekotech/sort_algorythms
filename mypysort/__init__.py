@@ -10,4 +10,8 @@ from .selection_sort import (
     sort,
 )
 
+from .insertion_sort import (
+    sort,
+)
+
 __version__ = '1.0.0'
