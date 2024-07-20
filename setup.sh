@@ -18,4 +18,4 @@ rm -rf ./mypysort/build/
 rm -rf ./mypysort/mypysort.egg-info
 
 # install python packages
-pip install -r requirements.txt
+pip install --break-system-packages -r requirements.txt
