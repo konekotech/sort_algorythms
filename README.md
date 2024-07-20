@@ -10,11 +10,11 @@
 
 [クイックソート](./clibs/quick_sort/README.md)
 
+[二分木ソート](./clibs/binary_tree_sort/README.md)
+
 [マージソート](./clibs/merge_sort/README.md)
 
 [ヒープソート](./clibs/heap_sort/README.md)
-
-[二分木ソート](./clibs/binary_tree_sort/README.md)
 
 [基数ソート](./clibs/radix_sort/README.md)
 
