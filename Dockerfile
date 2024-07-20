@@ -4,5 +4,5 @@ FROM ubuntu:latest
 WORKDIR /app
 
 # Install dependencies
-RUN apt-get update && apt-get install gcc g++ make cmake llvm python3 -y && apt-get install python3-pip -y && pip3 install jupyterlab
+RUN apt-get update && apt-get install gcc g++ make cmake llvm python3 -y && apt-get install python3-pip -y && pip3 install --break-system-packages jupyterlab
 
