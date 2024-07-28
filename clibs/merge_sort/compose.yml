@@ -1,0 +1,6 @@
+services:
+  merge_sort:
+    build: .
+    command: /bin/bash -c "rm -rf ./build/* && cmake -S . -B build && cmake --build build && ./build/test_program"
+    volumes:
+        - .:/app
