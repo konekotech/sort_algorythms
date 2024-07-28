@@ -22,4 +22,8 @@ from .heap_sort import (
 	sort,
 )
 
+from .merge_sort import (
+	sort,
+)
+
 __version__ = '1.0.0'
